@@ -10,6 +10,7 @@
 //    - Err(E): 错误返回的值
 
 use std::net::IpAddr;
+use std::error::Error;
 
 // 业务来决定使用那一种错误处理方式
 fn main() {
